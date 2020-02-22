@@ -1,0 +1,25 @@
+
+:root {
+  --accent-color: #ed5f74;
+  --success-color: #5fed82;
+  --headline-color: var(--accent-color);
+ 
+}
+
+.sample-info {
+  padding: 20px 30px;
+  border: 1px solid var(--gray-border);
+  border-radius: var(--radius);
+
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  margin-left: -250px;
+  max-width: 500px;
+}
+
+@media (max-width: 720px) {
+  .sample-info {
+    top: 0;
+  }
+}
