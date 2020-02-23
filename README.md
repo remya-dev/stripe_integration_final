@@ -1,4 +1,4 @@
-# PaymentIntents One-time paymentnusing REACT
+# PaymentIntents One-time payments using REACT
 
 This sample shows how to build a card form to take a payment using the [Payment Intents API](https://stripe.com/docs/payments/payment-intents), [Stripe Elements](https://stripe.com/payments/elements) and [React](https://reactjs.org/).
 
