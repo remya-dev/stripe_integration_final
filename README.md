@@ -16,8 +16,6 @@ Follow the steps below to run locally.
 
 **1. Clone and configure the sample**
 
-The Stripe CLI is the fastest way to clone and configure a sample to run locally. 
-
 **Installing and cloning manually**
 
 ```
