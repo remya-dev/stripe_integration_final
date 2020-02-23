@@ -35,13 +35,13 @@ The CLI will walk you through picking your integration type, server and client l
 If you do not want to use the Stripe CLI, you can manually clone and configure the sample yourself:
 
 ```
-git clone https://github.com/stripe-samples/react-elements-card-payment
+git clone https://github.com/remya-dev/stripe_integration_final
 ```
 
 Copy the .env.example file into a file named .env in the folder of the server you want to use. For example:
 
 ```
-cp .env.example server/node/.env
+cp .env.example server/.env
 ```
 
 You will need a Stripe account in order to run the demo. Once you set up your account, go to the Stripe [developer dashboard](https://stripe.com/docs/development#api-keys) to find your API keys.
