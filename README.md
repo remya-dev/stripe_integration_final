@@ -28,11 +28,12 @@ Copy the .env_sample file into a file named .env in the folder of the server you
 cp .env_sample server/.env
 ```
 
-You will need a Stripe account in order to run the demo. Once you set up your account, go to the Stripe [developer dashboard](https://stripe.com/docs/development#api-keys) to find your API keys.
+You will need a Stripe account in order to run the demo. Once you set up your account, go to the Stripe [developer dashboard](https://stripe.com/docs/development#api-keys) to find your API keys. Run stripe listen for webhook secret key
 
 ```
 STRIPE_PUBLISHABLE_KEY=<replace-with-your-publishable-key>
 STRIPE_SECRET_KEY=<replace-with-your-secret-key>
+STRIPE_WEBHOOK_SECRET=<replace-with-your-webhook-secret-key>
 ```
 
 ### Install Node modules
